@@ -36,3 +36,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/api/allure-results/
+/api/test-output/
+/ui/allure-results/
+/ui/test-output/
+/ui/allure-results/

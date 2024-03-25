@@ -55,7 +55,7 @@
                 <version>${surefire.version}</version>
                 <configuration>
                     <parallel>methods</parallel>
-                    <threadCount>2</threadCount>
+                    <threadCount>10</threadCount>
                     <argLine>
                         -Dfile.encoding=${project.build.sourceEncoding}
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
