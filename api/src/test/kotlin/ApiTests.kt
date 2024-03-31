@@ -10,7 +10,7 @@ class ApiTests {
     @Test
     fun firstApiTest() {
         Allure.step {
-            sleep(1_000L)
+            sleep(5_000L)
             if (counter == 0) {
                 println("#1 API Test")
             } else {
@@ -24,7 +24,7 @@ class ApiTests {
     @Test
     fun secondApiTest() {
         Allure.step {
-            sleep(1_000L)
+            sleep(5_000L)
             --counter
             if (counter == 0) {
                 println("#2 API Test")
